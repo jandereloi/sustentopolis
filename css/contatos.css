@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/lexend-exa');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Lexend Exa', sans-serif;
+    text-align: justify;
+    background-image: linear-gradient(to bottom, #7EB77F, #9EC4A0);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    height: 125px;
+    min-width: max-content;
+    max-width: 1050px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 100px;
+    background-color: #041208;
+    color: #FFFFFF;
+    border-radius: 0em 0em 2em 2em;
+}
+
+header > nav{
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #ffffff47;
+}
+
+nav > a.current{
+    color: #FFFFFF;
+}
+
+nav > a:hover{
+    color: #FFFFFF;
+}
+
+nav > a:active{
+    text-shadow: 1px 1px #FFFFFF;
+}
+
+img.header{
+    width: 100px;
+    border-radius: 25px;
+}
+
+main{
+    padding: 50px;
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: #041208;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.footer.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav.footer{
+    display: flex;
+    gap: 25px;
+}
+
+div.footer > p{
+    margin: 0px;
+}
+
+section.footer.right{
+    display: flex;
+    gap: 25px;
+}
+
+a.footer{
+    align-self: center;
+}
+
+img.footer{
+    width: 125px;
+    align-self: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 150px;
+}
+
+section.aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+div.info{
+    display: flex;
+    gap: 100px;
+}
+
+div.text.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+h2.title{
+    margin-bottom: 75px;
+}
+
+img.pfp{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 0.5em 0.5em #041208;
+    border-radius: 90px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.fa{
+    color: #041208;
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    color: #FFFFFF;
+    background-color: #8D0801;
+}
